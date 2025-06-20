@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+/* Float up and down animation for React box */
+@keyframes updown {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-updown {
+  animation: updown 3s ease-in-out infinite;
+}
+
+/* Continuous 360-degree rotation for React icon */
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate {
+  animation: rotate360 4s linear infinite;
+}
+
+/* Gentle floating movement for non-React icons */
+@keyframes floatTiny {
+  0%, 100% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(1px, -1px);
+  }
+  50% {
+    transform: translate(-1px, 1px);
+  }
+  75% {
+    transform: translate(1px, 1px);
+  }
+}
+
+.animate-float {
+  animation: floatTiny 5s ease-in-out infinite;
+}
