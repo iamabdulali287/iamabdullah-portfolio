@@ -9,7 +9,8 @@ function Footer() {
           <div className=" flex-1 mb-4 md:mb-0">
             <h3 className="text-2xl font-bold mb-2">Abdullah</h3>
             <p className="text-black  dark:text-white text-sm">
-             Front-End Developer passionate about crafting clean and responsive web experiences.
+              Front-End Developer passionate about crafting clean and responsive
+              web experiences.
             </p>
           </div>
           <div className="flex-1 w-full">

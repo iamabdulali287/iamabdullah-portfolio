@@ -48,7 +48,7 @@ function Hero() {
           <div className="flex gap-4 mt-2">
             <p className="flex items-center gap-1">
               <FaEnvelope className="text-lg" />
-              youremail@gmail.com
+              iamabdulali287@gmail.com
             </p>
             <p className="flex items-center gap-1">
               <FaMapMarkerAlt className="text-lg" />

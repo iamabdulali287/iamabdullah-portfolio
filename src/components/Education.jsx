@@ -1,6 +1,6 @@
 function Education() {
   return (
-    <div className=" dark:bg-black dark:text-white  py-16 " id="education">
+    <div className=" dark:bg-black dark:text-white  pt-16 " id="education">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="text-4xl font-bold text-center mb-12">Education</h2>
 
