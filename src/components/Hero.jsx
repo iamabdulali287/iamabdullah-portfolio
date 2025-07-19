@@ -1,5 +1,4 @@
 import React from "react";
-import HeroImage from "../assets/abdullah2.jpg";
 import { ArrowDownIcon } from "@heroicons/react/24/outline";
 import {
   SiJavascript,
